@@ -24,10 +24,11 @@ export const CardContainer = styled.section`
 `;
 
 export const Card = styled.div`
-  background: ${({ total }: CardProps): string => (total ? '#FF872C' : '#fff')};
+  background: ${({ total }: CardProps): string =>
+    total ? '#232C51' : '#232C51'};
   padding: 22px 32px;
   border-radius: 5px;
-  color: ${({ total }: CardProps): string => (total ? '#fff' : '#363F5F')};
+  color: ${({ total }: CardProps): string => (total ? '#fff' : '#fff')};
 
   header {
     display: flex;
@@ -55,7 +56,7 @@ export const TableContainer = styled.section`
     border-spacing: 0 8px;
 
     th {
-      color: #969cb3;
+      color: #181f3d;
       font-weight: normal;
       padding: 20px 32px;
       text-align: left;
@@ -66,21 +67,21 @@ export const TableContainer = styled.section`
     td {
       padding: 20px 32px;
       border: 0;
-      background: #fff;
+      background: #232c51;
       font-size: 16px;
       font-weight: normal;
-      color: #969cb3;
+      color: #fff;
 
       &.title {
-        color: #363f5f;
+        color: #fff;
       }
 
       &.income {
-        color: #12a454;
+        color: #8ef6b1;
       }
 
       &.outcome {
-        color: #e83f5b;
+        color: #e42a61;
       }
     }
 
