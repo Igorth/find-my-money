@@ -16,6 +16,11 @@ export const Container = styled.div<ContainerProps>`
     align-items: center;
     justify-content: space-between;
 
+    img {
+      width: 230px;
+      height: 64px;
+    }
+
     nav {
       a {
         color: #fff;
